@@ -1,12 +1,15 @@
+# set ls colors
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
 # ls shortcuts (incl. typos)
-alias ls="ls -G"
-alias l="ls -G"
-alias s="ls -G"
-alias sl="ls -G"
-alias lsl="ls -G"
-alias ks="ls -G"
-alias ll="ls -alG"
-alias la="ls -alG"
+alias l="ls"
+alias s="ls"
+alias sl="ls"
+alias lsl="ls"
+alias ks="ls"
+alias ll="ls -al"
+alias la="ls -al"
 
 # git shortcuts
 alias add="git add"
