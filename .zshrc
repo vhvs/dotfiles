@@ -38,6 +38,11 @@ TRAPALRM() {
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
+# cd . .. ...
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
 # ls shortcuts (incl. typos)
 alias l="ls"
 alias s="ls"
