@@ -6,6 +6,9 @@ prompt pure
 bindkey -v
 export KEYTIMEOUT=1
 
+# changing directories without cd
+setopt auto_cd
+
 # change arrow in VISUAL mode
 # https://github.com/sindresorhus/pure/wiki
 VIM_PROMPT="❯"
